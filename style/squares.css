@@ -20,6 +20,7 @@ body {
 }
 
 .squares {
+    display: flex;
     margin: 10px;
     width: 78px;
     min-height: 78px;
@@ -38,4 +39,36 @@ body {
 .rectangle__box3 {
     justify-content: flex-end;
     align-items: center;
+}
+
+.rectangle__box4 {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.square3__box4 {
+    align-self: flex-end;
+}
+
+.rectangle__box5 {
+    justify-content: space-evenly;
+    color: #ffff;
+}
+
+.square__box5 {
+    justify-content: center;
+    align-items: center;
+}
+
+.square2__box5 {
+    align-self: center;
+}
+
+.rectangle__box6 {
+    justify-content: center;
+    align-items: center;
+}
+
+.square2__box6 {
+    flex-grow: 0.5;
 }
