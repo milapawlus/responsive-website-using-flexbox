@@ -18,6 +18,7 @@ body {
 }
 
 .block {
+    display: flex;
     width: 273px;
     height: 220px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
@@ -32,3 +33,41 @@ body {
     background-color: #6A040F;
 }
 
+.circles {
+    width: 50px;
+    height: 50px;
+    background: #748CAB;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.block1 {
+    flex-wrap: wrap;
+}
+
+.block2 {
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+}
+
+.block3 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block3__circle4, .block3__circle5, .block3__circle6 {
+    align-self: flex-end;
+}
+
+.block4 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block5 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
